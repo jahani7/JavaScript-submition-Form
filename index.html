@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumbation form</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="heading">JAVASCRIPT SUMBATION FORM</h1>
+    </header>
+    <div  class="container">
+        <div id="error"></div>
+        <form action="/"name="myform" method="POST" onsubmit="return validateForm()">
+            <br>
+            <div class="formgroup">
+                <input type="text" name="fname" placeholder="First NAME" id="fname" required><span class="formerror"></span>
+            </div>
+            <br>
+            <div class="formgroup">
+                <input type="text" name="lname" placeholder="Last name" id="lname" required><span class="formerror"></span>
+            </div>
+            <br>
+            <div class="formgroup">
+                <input type="text" name="contact" placeholder="Contact no." id="contact" required><span class="formerror"></span>
+            </div>
+            <br>
+            <div class="formgroup">
+                <input type="email" name="email" placeholder="email" id="Email" required><span class="formerror"></span>
+            </div>
+            <br>
+            <div class="formgroup">
+                <input type="password" name="Passwrd" placeholder="Passsword" id="Passwrd" required><span class="formerror"></span>
+            </div>
+            <br>
+            <div class="formgroup">
+                <input type="checkbox" id="checkbox" name="checkit" >
+                <label for="checkit">Subscribe to our new settler</label><br>
+            </div>
+            <br>
+            <label for="cities">Choose a city you'd like to travel</label>
+            <select id="cities">
+                <option value="NYC">Newyork city</option>
+                <option>california</option>
+                <option>Los angles</option>
+                <option>Atlanta/option>
+                <option>Punjab avenue</option>
+            </select>
+            <br/>
+            <br/>
+            <div id="selectlang">
+                <p>What is your favourite language so far ?</p>
+                <input type="radio" id="java" name="fav-language" value="HTML">
+                <label for="java">java</label><br>
+                <input type="radio" id="javascript" name="fav-language" value="JAVASCRIPT">
+                <label for="javascript">javascript</label><br>
+                <input type="radio" id="Python" name="fav-language" value="Python">
+                <label for="Python">Python</label><br>
+            </div>
+            <br/>
+            <div id="sumbit">
+                <button type="submit" value="submit">sumbit</button>
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(/img/diego-ph-5LOhydOtTKU-unsplash.jpg) center/cover;
+    background-repeat: no-repeat;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#heading{
+    color: beige;
+    text-align: center;
+    align-items: center;
+    margin: 45px;
+    font-size: 3em;
+}
+.container{
+    margin-left: 499px;
+    height: 70vh;
+    width: 30rem; 
+    box-shadow: 0 20px 20px rgb(228 209 209 / 76%), 0 0 50px rgb(228 209 209 / 76%);
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+    align-items: center;
+}
+button{
+    margin-top: -30%;
+    height:35px;
+    width: 95px;
+    border-radius: 22px;
+    outline: none;
+    background: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+.formerror{
+    color: red;
+}
